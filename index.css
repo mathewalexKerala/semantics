@@ -1,0 +1,55 @@
+
+body{
+    width: 100%;
+}
+body>div{
+    width: 100%;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: space-evenly;
+    row-gap: 50px;
+    grid-column-gap:410px ;
+}
+nav{
+    display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(10px,1fr));
+    justify-items: center;
+    grid-column-gap:20px ;
+}
+
+
+header >div{
+    width: max-content;
+    height: max-content;
+    border-radius: 10px;
+}
+header > h2{
+    margin-left: 20px;
+}
+.table{
+    display: flex;
+}
+footer > section.combinator {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center; /* Centers individual items within their grid cells */
+    justify-content: center; /* Centers the grid as a whole within the container */
+    gap: 16px; /* Optional: Adds space between the grid items */
+  }
+  
+
+
+.table{
+    justify-content: center;
+}
+.section-4{
+    margin-top: 150px;
+}
+.combinator + p{
+    margin-top: 150px;
+}
+.footer-1{
+    margin-top:50px;
+}
